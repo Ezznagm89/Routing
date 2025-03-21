@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .btn-red{
+    @apply border border-red-800 text-red-800 hover:bg-red-400  duration-1000 bg-red-200 py-2 px-4 rounded-md;
+  }
+  .row{
+   @apply flex flex-wrap flex-col md:flex-row gap-y-2
+  }
+
+  /* .right-line {
+    @apply after:content-[''] after:w-[30%] after:h-1 after:bg-slate-950 after:absolute after:top-1/2 ;
+  }
+  .left-line {
+    @apply before:content-[''] before:w-[30%] before:h-1 before:bg-slate-950 before:absolute before:top-1/2; 
+  } */
+} 
